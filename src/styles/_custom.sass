@@ -30,15 +30,13 @@
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
   width: 58.33333333% !important
-  @media screen and (max-width: 1200px)
-    width: 95% !important
   @media screen and (max-width: 576px)
     padding: 6rem 3rem !important
 
 .banner-principal__row .banner-principal__img
   width: 370px !important
   @media screen and (max-width: 1200px)
-    width: 380px !important
+    width: 350px !important
   @media screen and (min-width: 1400px)
     width: 430px !important
 
@@ -47,6 +45,32 @@
 
 .titulo-principal__numero span
   color: $color-sistema-texto !important
+
+/* ===================================
+          MEDIA QUERIES 
+/* ===================================
+
+/// DESKTOP SMALL 1400
+@media screen and (max-width: $bp-min-xxl)
+  .mb-cus
+    margin-bottom: 2em !important
+
+/// TABLET 992
+@media screen and (max-width: $bp-max-md)
+  .mb-cus
+    margin-bottom: 2em !important
+  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+    width: 90% !important
+
+/// TABLET MINI 768 
+@media screen and (max-width: $bp-min-md)
+  .mb-cus
+    margin-bottom: 2em !important
+
+/// MOBILE 576 
+@media screen and (max-width: $bp-min-sm)
+  .mb-cus
+    margin-bottom: 2em !important
 
 /* ===================================
           TITULOS TERCER NIVEL
