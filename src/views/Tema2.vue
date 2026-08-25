@@ -95,7 +95,7 @@
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Dase de datos de procedencia
+                      | Base de datos de procedencia
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
@@ -195,7 +195,7 @@
       .row.justify-content-center.align-items-center.mb-0
         .col-xl.mb-4.mb-lg-0
           .box___style_1.fit___box_1(data-aos="fade-right").mb-3
-            p El cruce estratégico supera el análisis descriptivo porque interpreta cada hallazgo en relación con otros factores del entorno. Esta lógica de pensamiento sistémico permite identificar relaciones que no serían evidentes al analizar los datos de manera aislada. Finalmente se obtiene el resultado del cruce:
+            p El cruce estratégico supera el análisis descriptivo porque interpreta cada hallazgo en relación con otros factores del entorno. Esta lógica de pensamiento sistémico permite identificar relaciones que no serían evidentes al analizar los datos de manera aislada. Finalmente, se obtiene el resultado del cruce:
             h5 Resultado del cruce
             p.mb-0 La triangulación de las dimensiones permite identificar inconsistencias, oportunidades emergentes, riesgos latentes, alertas tempranas y escenarios para la toma de decisiones.
           p.mb-0 El valor del cruce estratégico no se concentra en cada dato aislado, sino en la relación entre variables que inicialmente parecen independientes.
@@ -298,7 +298,7 @@
       p.mb-0 El uso de repositorios, taxonomías y metadatos fortalece la memoria corporativa, facilita la actualización de proyectos y reduce la pérdida de tiempo y recursos en búsquedas repetidas.
       Separador
       #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 2.4 Fundamentos de la Gestión documental y el ciclo de vida de la información
+        h2 2.4 Fundamentos de la gestión documental y el ciclo de vida de la información
       p.mb-5 La gestión documental permite administrar, organizar, conservar y recuperar la información institucional durante todo su ciclo de vida, mediante prácticas archivísticas seguras y eficientes (SENA, 2024). Los conceptos básicos permiten comprender cómo se administra la información dentro de la organización:
       .row.justify-content-center.mb-5
         .col-xl-4.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")
@@ -345,7 +345,7 @@
             .row(titulo="Planeación").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Creación de planes técnicos para gestionar el documento durante todo su ciclo, garantizando el cumplimiento normativo.
             .row(titulo="Producción documental").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 Generación del documento aplicando formatos normalizados, evaluando si debe nacer como documento físico o electrónico, y registrándolo en el sistema.
+              p.mb-3 Generación del documento aplicando formatos normalizados, evaluando si debe nacer como documento físico o electrónico y registrándolo en el sistema.
             .row(titulo="Gestión y trámite").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Flujo de circulación del documento para resolver asuntos administrativos, verificando tiempos de respuesta y trazabilidad.
       .row.align-items-center.mb-5

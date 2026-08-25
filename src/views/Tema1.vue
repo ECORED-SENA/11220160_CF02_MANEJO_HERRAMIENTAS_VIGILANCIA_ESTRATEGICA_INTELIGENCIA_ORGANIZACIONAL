@@ -157,7 +157,7 @@
             .row(titulo="Operador OR (Unión)").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Indica que al menos uno de los términos debe aparecer en el documento. Se utiliza para agrupar sinónimos y ampliar la búsqueda. Al ingresar competitividad OR productividad, el sistema recuperará documentos que contengan el primer término, el segundo, o ambos.
             .row(titulo="Operador NOT / AND NOT (Exclusión)").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 Elimina documentos que contengan un término específico. Es vital para eliminar ruido informático o polisemia. Si se investiga la construcción de muros con adobe, pero la base de datos arroja resultados sobre el #[i software] Adobe, la ecuación debe ajustarse a adobe NOT #[i software].
+              p.mb-3 Elimina documentos que contengan un término específico. Es vital para eliminar ruido informático o polisemia. Sí se investiga la construcción de muros con adobe; pero la base de datos arroja resultados sobre el #[i software] Adobe, la ecuación debe ajustarse a adobe NOT #[i software].
       p.mb-5 Para otorgar mayor flexibilidad y precisión a las ecuaciones, se emplean los siguientes comandos de sintaxis avanzada:
       .row.justify-content-center.mb-5
         .col-xl-10
@@ -337,7 +337,7 @@
           li.mb-0
             span.fa-li
               i.fas.fa-search
-            | Uso de truncamiento: el término #[b #[i securit*]] capturará #[i security], #[i securities]; #[b #[i cach*]] capturará cache, #[i caching].
+            | Uso de truncamiento: el término #[b #[i securit*]] capturará #[i security], #[i securities]; #[b #[i cach*]] capturará #[i cache], #[i caching].
           li.mb-0
             span.fa-li
               i.fas.fa-search

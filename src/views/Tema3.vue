@@ -391,12 +391,12 @@
             .row(titulo="Gestión del conocimiento").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Para evitar la amnesia corporativa, el equipo redacta un documento de #[b Lecciones Aprendidas] que se aloja en el repositorio institucional. La regla principal establecida dicta: "Queda estrictamente prohibido en la organización la instalación de '#[i plugins]' de WooCommerce que no hayan recibido actualizaciones de seguridad en los últimos 6 meses, independientemente de su popularidad". Esta directriz asegura que cualquier futuro desarrollador contratado mantenga la integridad del código fuente.
             .row(titulo="Recomendaciones y toma de decisiones").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 El rol de analista de inteligencia, redacta el #[b Informe Estratégico] dirigido a la gerencia de Central Ferretera.
+              p.mb-3 El rol de analista de inteligencia, redacta el #[b Informe estratégico] dirigido a la gerencia de Central Ferretera.
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           p En lugar de explicar la programación de las herramientas, emite la siguiente recomendación accionable:
           .box___style_1.fit___box_1(data-aos="fade-right")
-            p #[b Recomendación Estratégica:] "Con base en el análisis del entorno digital y la normativa tributaria vigente, se recomienda autorizar el despliegue de la tienda virtual Central Ferretera bajo el ecosistema WooCommerce, condicionado a dos factores críticos:
+            p #[b Recomendación estratégica:] "Con base en el análisis del entorno digital y la normativa tributaria vigente, se recomienda autorizar el despliegue de la tienda virtual Central Ferretera bajo el ecosistema WooCommerce, condicionado a dos factores críticos:
             ul.fa-ul.estilo___ul.mb-0
               li.mb-0
                 span.fa-li
