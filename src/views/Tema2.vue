@@ -176,7 +176,7 @@
             h4 Ficha de caracterización de información estratégica
             p.mb-0 Se invita a leer el documento, donde se reconoce su estructura e identifica los campos requeridos para registrar, contextualizar y validar los hallazgos.
           .col-xl-2
-            a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexos/Anexo_1.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexos/Anexo_01_Ficha_Caracterizacion_Informacion_Estrategica.pdf')" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
       p.mb-5 Una vez caracterizada la información, los cruces estratégicos relacionan hallazgos de distintas tipologías de vigilancia para identificar patrones, riesgos, oportunidades e inconsistencias en tres dimensiones:
