@@ -196,7 +196,7 @@
           p.mb-0 Una ecuación mal estructurada puede generar resultados irrelevantes. El siguiente video aborda operadores booleanos, comodines, comillas y paréntesis para formular búsquedas especializadas. Ingrese al recurso y construya una ecuación aplicada a una necesidad organizacional.
       figure(data-aos="zoom-in").mb-0
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/HVl7CPGT9Qg" title="Buscar con precisión: operadores y sintaxis para ecuaciones de búsqueda" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption.fit___figcaption-video Video. Buscar con precisión: operadores y sintaxis para ecuaciones de búsqueda
       Separador
       #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
