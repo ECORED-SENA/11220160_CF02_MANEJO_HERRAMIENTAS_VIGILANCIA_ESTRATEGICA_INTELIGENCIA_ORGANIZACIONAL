@@ -167,7 +167,7 @@ export default {
   },
   glosario: [
     {
-      termino: 'Amnesia corporativa',
+      termino: 'Pérdida de conocimiento organizacional',
       significado:
         'fenómeno de pérdida de activos intangibles y conocimiento que ocurre cuando la información no se almacena en repositorios centrales o se pierde tras la rotación del personal.',
     },
@@ -184,7 +184,7 @@ export default {
     {
       termino: 'Cruces estratégicos',
       significado:
-        'técnica analítica que consiste en triangular datos de diferentes dimensiones (tecnológica, normativa y de mercado) para descubrir patrones, riesgos latentes u oportunidades.',
+        'técnica analítica que consiste en triangular datos de diferentes dimensiones (tecnológica, normativa y de mercado) para identificar patrones, riesgos latentes u oportunidades.',
     },
     {
       termino: 'Ecuación de búsqueda',
@@ -199,7 +199,7 @@ export default {
     {
       termino: 'Ficha de caracterización',
       significado:
-        'instrumento metodológico que registra el "qué" se encontró, extrayendo metadatos críticos de cada hallazgo para su posterior normalización.',
+        'instrumento metodológico que registra el qué se encontró, extrayendo metadatos críticos de cada hallazgo para su posterior normalización.',
     },
     {
       termino: 'Gestión documental',
@@ -245,12 +245,12 @@ export default {
   referencias: [
     {
       referencia:
-        'Cubillo, J. (1999). Cambio y continuidad en las organizaciones de gestión del conocimiento. CEPAL Repositorio digital de Naviones Unidas. Obtenido de ',
+        'Cubillo, J. (1999). Cambio y continuidad en las organizaciones de gestión del conocimiento. CEPAL Repositorio digital de Naciones Unidas. Obtenido de ',
       link: 'https://repositorio.cepal.org/entities/publication/6c0e22b2-05fa-4e55-8863-2eb1a729bf0b ',
     },
     {
       referencia:
-        'Malaver Rodríguez, F., & Vargas Pérez, M. (2007). Vigilancia tecnológica y competitividad sectorial: lecciones y resultados de cinco estudios. Bogotá: Pontificia Universidad Javeriana. doi:ISBN: 978-958-44-1156-3 ',
+        'Malaver Rodríguez, F., & Vargas Pérez, M. (2007). Vigilancia tecnológica y competitividad sectorial: lecciones y resultados de cinco estudios. Bogotá: Pontificia Universidad Javeriana. ISBN: 978-958-44-1156-3 ',
       link: '',
     },
     {
@@ -291,7 +291,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable del ecosistema virtual de recursos educativos digitales',
+            'Profesional G06. Responsable del ecosistema virtual de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

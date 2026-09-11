@@ -67,23 +67,23 @@
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Nombre del proyecto o Factor Crítico de Vigilancia (FCV)
+                      | Nombre del proyecto o Factor Crítico de Vigilancia (FCV).
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      |  Identificador del documento
+                      |  Identificador del documento.
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      |  Fecha de caracterización
+                      |  Fecha de caracterización.
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      |  Analista o vigía responsable
+                      |  Analista o vigía responsable.
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      |  Dimensión de vigilancia
+                      |  Dimensión de vigilancia.
                 .col-xl-6
                   figure
                     img(src='@/assets/curso/temas/t2/img6.png', alt='' style="max-width: 500px").m-auto
@@ -95,27 +95,27 @@
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Base de datos de procedencia
+                      | Base de datos de procedencia.
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Título original
+                      | Título original.
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Autor o inventor
+                      | Autor o inventor.
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Institución o empresa
+                      | Institución o empresa.
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Año de publicación
+                      | Año de publicación.
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Identificador de Objeto Digital (DOI) o dirección electrónica estable
+                      | Identificador de Objeto Digital (DOI) o dirección electrónica estable.
                 .col-xl-6
                   figure
                     img(src='@/assets/curso/temas/t2/img7.png', alt='' style="max-width: 500px").m-auto
@@ -128,7 +128,7 @@
                     img(src='@/assets/curso/temas/t2/img8.png', alt='' style="max-width: 500px").m-auto
               .row.justify-content-center.align-items-center
                 .col-xl-6.mb-4
-                  h4 Nivel de Madurez Tecnológica (TRL - Technology Readiness Level)
+                  h4 Nivel de madurez tecnológica (TRL - #[i Technology readiness level])
                   p.mb-0 Indicador que señala si el hallazgo es una idea conceptual, un prototipo de laboratorio o una tecnología lista para comercialización.
                 .col-xl-6
                   figure
@@ -141,15 +141,15 @@
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Contextualización local
+                      | Contextualización local.
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Impacto potencial o riesgos
+                      | Impacto potencial o riesgos.
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Veredicto del experto
+                      | Veredicto del experto.
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
@@ -166,7 +166,6 @@
                   img(src='@/assets/curso/temas/t1/img7.svg', alt='' style="width: 85px").m-auto
               .col-xl.col-md-10
                 p.mb-0 La ficha normaliza los hallazgos, documenta su procedencia y reúne la información necesaria para su posterior análisis y validación experta.
-      p.mb-5 Para complementar el tema, se invita a consultar el documento #[b Ficha de caracterización de información estratégica]. 
       .call___to_action.mb-5(data-aos="flip-up")
         .row.align-items-center
           .col-xl-auto.mb-4.mb-lg-0(data-aos="fade-right")
@@ -176,7 +175,7 @@
             h4 Ficha de caracterización de información estratégica
             p.mb-0 Se invita a leer el documento, donde se reconoce su estructura e identifica los campos requeridos para registrar, contextualizar y validar los hallazgos.
           .col-xl-2
-            a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexos/Anexo_01_Ficha_Caracterizacion_Informacion_Estrategica.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo_01_Ficha_Caracterizacion_Informacion_Estrategica.pdf')" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
       p.mb-5 Una vez caracterizada la información, los cruces estratégicos relacionan hallazgos de distintas tipologías de vigilancia para identificar patrones, riesgos, oportunidades e inconsistencias en tres dimensiones:
@@ -217,7 +216,7 @@
             .row(titulo="Contextualización").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 La contextualización adapta la información global a las condiciones reales de la organización y determina si cuenta con infraestructura, presupuesto y talento humano suficientes para implementar el hallazgo.
             .row(titulo="Validación experta").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 La validación experta evalúa la viabilidad técnica y financiera de los hallazgos mediante conocimiento especializado. La información con fallas metodológicas, altos costos o baja aplicabilidad se descarta antes del informe final, evitando la infoxicación de la alta gerencia.
+              p.mb-3 La validación experta evalúa la viabilidad técnica y financiera de los hallazgos mediante conocimiento especializado. La información con fallas metodológicas, altos costos o baja aplicabilidad se descarta antes del informe final, #[b contribuyendo a reducir la sobrecarga informativa] de la alta gerencia.
       p.mb-5 La validación convierte los datos en información confiable, conocimiento aplicable e inteligencia útil. La pirámide informacional representa esta evolución según la cantidad, calidad y valor estratégico:
       .row.justify-content-center.mb-5
         .col-xl-10
@@ -228,7 +227,7 @@
             h5 Figura 2.
             span Pirámide informacional (SENA, 2020)
           figure(data-aos="zoom-in")
-            img(src='@/assets/curso/temas/t2/img15.png', alt='La figura representa la transformación progresiva de grandes volúmenes de datos en información, conocimiento e inteligencia. A medida que disminuye la cantidad, aumenta la calidad, la interpretación y el valor estratégico necesario para orientar decisiones dentro de la organización.').m-auto
+            img(src='@/assets/curso/temas/t2/img15.png', alt='La imagen muestra la "Pirámide Informacional" del SENA. Consiste en una pirámide dividida horizontalmente en cuatro niveles jerárquicos: desde la base ancha hacia el vértice superior están Datos (azul), Información (verde azulado), Conocimiento (verde claro) e Inteligencia (amarillo). A la izquierda, una flecha vertical ascendente indica el incremento de la Calidad, mientras que en la base, una flecha horizontal señala que la Cantidad disminuye a medida que se asciende en la pirámide.').m-auto
       p.mb-0 El proceso de validación contribuye a reducir la sobrecarga informativa y asegura que únicamente los hallazgos pertinentes avancen hacia la generación de inteligencia organizacional.
       Separador
       #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -238,7 +237,7 @@
           figure
             img(src='@/assets/curso/temas/t1/img14.svg', alt='' style="width: 85px").m-auto
         .col-xl
-          p.mb-0 El almacenamiento protege el conocimiento generado y evita que permanezca disperso en correos personales o carpetas locales, donde puede perderse o resultar difícil de recuperar. La gestión documental estratégica se apoya en tres elementos que garantizan la organización y recuperación de la información:
+          p.mb-0 El almacenamiento #[b contribuye a preservar y organizar la información y el conocimiento generado] y evita que permanezca disperso en correos personales o carpetas locales, donde puede perderse o resultar difícil de recuperar. La gestión documental estratégica se apoya en tres elementos que garantizan la organización y recuperación de la información:
       .bg___slider.mb-5
         .px-5
           .ajuste-slider(data-aos="zoom-in")
@@ -269,29 +268,29 @@
                         li.mb-0
                           span.fa-li
                             i.fas.fa-search
-                          | Año
+                          | Año.
                         li.mb-0
                           span.fa-li
                             i.fas.fa-search
-                          | Área responsable
+                          | Área responsable.
                         li.mb-0
                           span.fa-li
                             i.fas.fa-search
-                          | Tecnología
+                          | Tecnología.
                     .col-xl-6
                       ul.fa-ul.estilo___ul.mb-0
                         li.mb-0
                           span.fa-li
                             i.fas.fa-search
-                          | Nivel de confidencialidad
+                          | Nivel de confidencialidad.
                         li.mb-0
                           span.fa-li
                             i.fas.fa-search
-                          | Estado de validación
+                          | Estado de validación.
                         li.mb-0
                           span.fa-li
                             i.fas.fa-search
-                          | Proyecto relacionado
+                          | Proyecto relacionado.
                 .col-xl-6
                   figure
                     img(src='@/assets/curso/temas/t2/img18.png', alt='' style="max-width: 500px").m-auto
@@ -318,7 +317,7 @@
                   img(src='@/assets/curso/temas/t2/img20.jpg', alt="" ).m-auto
               h4.text-center Archivo de gestión
               .box___card_sinbordes_p
-                p.mb-0 Comprende toda la documentación que se encuentra en continua utilización y consulta administrativa. Aquí es donde los documentos "viven" mientras se da respuesta o solución a los trámites.
+                p.mb-0 Comprende toda la documentación que se encuentra en continua utilización y consulta administrativa. Es el lugar donde los documentos permanecen mientras son objeto de consulta y trámite administrativo.
         .col-xl-4.col-md-9(data-aos="fade-left")
           .box___card_sinbordes.h-100
             .row.justify-content-center.mb-3
@@ -356,7 +355,7 @@
             .row(titulo="Transferencias documentales").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 El proceso controlado en el que un documento pasa de un archivo de gestión al archivo central o histórico cuando ya no se consulta frecuentemente.
             .row(titulo="Disposición final (Valoración)").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 Determinación del destino final del documento (eliminación segura o conservación temporal/permanente) según sus valores primarios y secundarios. 
+              p.mb-3 Determinación del destino final del documento (eliminación segura, conservación temporal o conservación permanente) según sus valores primarios y secundarios. 
         .col-xl-auto(data-aos="fade-left")
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t2/img24.png", alt="" style="width: 300px").m-auto
@@ -383,33 +382,33 @@
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Producción documental
+                      | Producción documental.
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Distribución
+                      | Distribución.
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Consulta
+                      | Consulta.
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Retención 
+                      | Retención.
                 .col-xl-6
                   ul.fa-ul.estilo___ul.mb-0
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Almacenamiento
+                      | Almacenamiento.
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Preservación 
+                      | Preservación.
                     li.mb-0
                       span.fa-li
                         i.fas.fa-search
-                      | Disposición final
+                      | Disposición final.
         .py-3.py-md-4(titulo="Expedientes documentales")
           .row.justify-content-center.align-items-center
             .col-xl-5.order-2.order-lg-1
@@ -433,7 +432,7 @@
                 img(src='@/assets/curso/temas/t2/img28.png', alt="" ).m-auto
             .col-xl-7.order-1.order-lg-2.mb-4.mb-lg-0
               h4.txt--purpura.mb-4 Repositorio institucional
-              p.mb-0 Centraliza los documentos y evita que el conocimiento permanezca disperso en correos personales, carpetas locales o archivos sin clasificación.
+              p.mb-0 Centraliza los documentos y #[b contribuye a reducir la dispersión] de la información y el conocimiento permanezca disperso en correos personales, carpetas locales o archivos sin clasificación.
       p.mb-5 Los sistemas de gestión documental fortalecen la memoria corporativa y aseguran la continuidad de los procesos institucionales.
       .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
         .col-lg-auto
@@ -446,7 +445,7 @@
           figure
             img(src='@/assets/curso/temas/t1/img2.svg', alt='' style="width: 85px").m-auto
         .col-xl
-          p.mb-0 La empresa #[b Centrat Ferretera], cuyo objetivo es el desarrollo de un portal de comercio electrónico. Tras la decisión de la gerencia de no utilizar arquitecturas a la medida basadas en JavaScript puro desde cero, sino apalancarse de manera exclusiva en el ecosistema #[b WordPress y WooCommerce], el equipo de inteligencia ejecutó sus búsquedas. Ahora, deben procesar, validar y almacenar los hallazgos.
+          p.mb-0 La empresa #[b Centrat Ferretera], cuyo objetivo es el desarrollo de un portal de comercio electrónico. Tras la decisión de la gerencia de no utilizar arquitecturas a la medida basadas en JavaScript puro desde cero, sino apoyarse exclusivamente en el ecosistema #[b WordPress] y #[b WooCommerce], el equipo de inteligencia ejecutó sus búsquedas. Ahora, deben procesar, validar y almacenar los hallazgos.
       p.mb-5 El caso integra las etapas estudiadas mediante la siguiente secuencia:
       .row.justify-content-center.mb-5
         .col-lg-10
@@ -454,7 +453,7 @@
             .row.align-items-center
               .col-lg.mb-4.mb-lg-0
                 h3 Procesamiento y cruces estratégicos
-                p.mb-0 El aprendiz registra en fichas dos pasarelas de pago y cruza sus requisitos técnicos con la normativa de la Dirección de Impuestos y Aduanas Nacionales (DIAN). El análisis descarta la opción internacional porque no genera el archivo XML exigido para la facturación electrónica en Colombia.
+                p.mb-0 El aprendiz registra en fichas dos pasarelas de pago y compara sus requisitos técnicos con la normativa aplicable de la DIAN. El análisis descarta la opción internacional porque no genera el archivo XML exigido para la facturación electrónica en Colombia.
               .col-auto(data-aos="zoom-in")
                 figure
                   img(src='@/assets/curso/temas/t2/img29.png', alt='' style="width: 300px").m-auto
@@ -464,11 +463,11 @@
                   img(src='@/assets/curso/temas/t2/img30.png', alt='' style="width: 300px").m-auto
               .col-lg.fit___pasosA-left
                 h3 Contextualización y validación experta
-                p.mb-0 El director de Tecnología valida las herramientas de optimización para WooCommerce según el inventario de más de 10.000 referencias. Descarta las que consumen demasiada memoria RAM y selecciona soluciones certificadas para entornos empresariales de gran escala.
+                p.mb-0 El director de Tecnología valida las herramientas de optimización para WooCommerce según el inventario de más de 10.000 referencias. Descarta las que consumen demasiada memoria RAM y selecciona soluciones adecuadas para entornos empresariales de gran escala.
             .row.align-items-center
               .col-lg.mb-4.mb-lg-0
                 h3 Almacenamiento y repositorio documental
-                p.mb-0 El aprendiz reúne las fichas de caracterización, los manuales de seguridad de WordPress y la normativa de la DIAN. Luego, codifica y almacena el paquete documental en el repositorio institucional bajo la taxonomía definida para la infraestructura de WooCommerce.
+                p.mb-0 El aprendiz reúne las fichas de caracterización, los manuales de seguridad de WordPress y la normativa de la DIAN. Luego, codifica y almacena el paquete documental en el repositorio institucional bajo la taxonomía documental definida para el proyecto” o “de acuerdo con la taxonomía establecida para el repositorio institucional”.
               .col-auto(data-aos="zoom-in")
                 figure
                   img(src='@/assets/curso/temas/t2/img31.png', alt='' style="width: 300px").m-auto

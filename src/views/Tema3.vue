@@ -102,44 +102,50 @@
               p.mb-3 Examina situaciones posibles y sus consecuencias para anticipar riesgos, oportunidades y alternativas de actuación.
       p.mb-5.text-center La interpretación cualitativa puede apoyarse en técnicas prospectivas que facilitan la construcción de escenarios y el análisis experto:
       .row.justify-content-center.mb-5
-        .col-xl-3.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
+        .col-10.col-lg-6.col-xl-3.mb-4.mb-xl-0(data-aos="zoom-in")
           .box___style_6.h-100
             .row.justify-content-center.mb-3
               .col-7
                 figure.mb-4(data-aos="fade-right")
                   img(src='@/assets/curso/temas/t3/img7.svg', alt="" style="max-width: 90px").m-auto
-              h4.text-center Análisis de escenarios
+              h4.text-center.pb-4 Análisis de escenarios
+              br
+              br
               p.mb-0.text-center Formula futuros posibles a partir de variables críticas, incertidumbres y cambios del entorno.
-        .col-xl-3.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
+        .col-10.col-lg-6.col-xl-3.mb-4.mb-xl-0(data-aos="zoom-in")
           .box___style_6.h-100
             .row.justify-content-center.mb-3
               .col-7
                 figure.mb-4(data-aos="fade-right")
                   img(src='@/assets/curso/temas/t3/img7.svg', alt="" style="max-width: 90px").m-auto
-              h4.text-center Matriz de impactos cruzados
+              h4.text-center.mb-4.mb-xl-3.pb-3.pb-xl-0 Matriz de impactos cruzados
               p.mb-0.text-center Relaciona diferentes acontecimientos para establecer cómo la ocurrencia de uno puede influir sobre los demás.
-        .col-xl-3.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
+        .col-10.col-lg-6.col-xl-3.mb-4.mb-lg-0(data-aos="zoom-in")
           .box___style_6.h-100
             .row.justify-content-center.mb-3
               .col-7
                 figure.mb-4(data-aos="fade-left")
                   img(src='@/assets/curso/temas/t3/img7.svg', alt="" style="max-width: 90px").m-auto
-              h4.text-center Paneles de expertos
+              h4.text-center.pb-4 Paneles de expertos
+              br
+              br
               p.mb-0.text-center Reúnen conocimientos especializados para valorar la pertinencia, viabilidad y posible impacto de los hallazgos.
-        .col-xl-3.col-md-9(data-aos="zoom-in")
+        .col-10.col-lg-6.col-xl-3(data-aos="zoom-in")
           .box___style_6.h-100
             .row.justify-content-center.mb-3
               .col-7
                 figure.mb-4(data-aos="fade-left")
                   img(src='@/assets/curso/temas/t3/img7.svg', alt="" style="max-width: 90px").m-auto
-              h4.text-center Método Delphi
+              h4.text-center.pb-4 Método Delphi
+              br
+              br
               p.mb-0.text-center Recopila y contrasta las opiniones de expertos mediante consultas sucesivas orientadas a alcanzar niveles de consenso.
       .row.justify-content-center.align-items-center.mb-5
         .col-xl-auto.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")
           figure
             img(src='@/assets/curso/temas/t3/img8.png', alt='' style="width: 500px").m-auto
         .col-xl
-          p Para la aplicación del tema abordado, se presenta el siguiente análisis aplicado:
+          p A continuación, se presenta una aplicación del análisis cualitativo:
           .box___style_1.color___2.fit___box_1(data-aos="fade-left")
             h5 Aplicación del análisis
             p El análisis cualitativo permite responder interrogantes como:
@@ -147,7 +153,7 @@
               li.mb-0
                 span.fa-li
                   i.fas.fa-search
-                | ¿Cómo afectará una nueva regulación tributaria a la cadena de suministro? 
+                | ¿Cómo podría afectar una nueva regulación tributaria a la cadena de suministro?
               li.mb-0
                 span.fa-li
                   i.fas.fa-search
@@ -188,7 +194,7 @@
                 .col-xl-6
                   h4 Gestión del conocimiento
                   p Comprende los procesos institucionales orientados a conservar y distribuir el capital intelectual generado durante el desarrollo de las funciones y los proyectos organizacionales.
-                  p.mb-0 Cuando este conocimiento permanece únicamente en la mente del analista o del experto técnico, la organización puede enfrentar amnesia corporativa ante la rotación del personal.
+                  p.mb-0 Cuando este conocimiento permanece únicamente en la mente del analista o del experto técnico, la organización puede enfrentar pérdida de conocimiento organizacional ante la rotación del personal.
               .row.justify-content-center.align-items-center
                 .col-xl-6.mb-4
                   figure
@@ -277,19 +283,19 @@
                   li.mb-0
                     span.fa-li
                       i.fas.fa-search
-                    | Específica 
+                    | Específica.
                   li.mb-0
                     span.fa-li
                       i.fas.fa-search
-                    | Técnicamente viable 
+                    | Técnicamente viable.
                   li.mb-0
                     span.fa-li
                       i.fas.fa-search
-                    | Coherente con la capacidad financiera 
+                    | Coherente con la capacidad financiera.
                   li.mb-0
                     span.fa-li
                       i.fas.fa-search
-                    | Compatible con el talento humano disponible 
+                    | Compatible con el talento humano disponible.
                   li.mb-0
                     span.fa-li
                       i.fas.fa-search
@@ -301,27 +307,27 @@
                   li.mb-0
                     span.fa-li
                       i.fas.fa-search
-                    | Mejora del posicionamiento 
+                    | Mejora del posicionamiento.
                   li.mb-0
                     span.fa-li
                       i.fas.fa-search
-                    | Reducción de costos 
+                    | Reducción de costos.
                   li.mb-0
                     span.fa-li
                       i.fas.fa-search
-                    | Optimización de procesos 
+                    | Optimización de procesos.
                   li.mb-0
                     span.fa-li
                       i.fas.fa-search
-                    | Mitigación de riesgos 
+                    | Mitigación de riesgos.
                   li.mb-0
                     span.fa-li
                       i.fas.fa-search
-                    | Cumplimiento normativo 
+                    | Cumplimiento normativo.
                   li.mb-0
                     span.fa-li
                       i.fas.fa-search
-                    | Retorno de la Inversión (ROI)
+                    | Retorno de la Inversión (ROI).
       p.mb-5 La recomendación estratégica debe superar la descripción del problema y plantear una acción sustentada en evidencias, capacidades organizacionales y beneficios verificables.
       .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
         .col-lg-auto
@@ -346,7 +352,7 @@
                   img(src='@/assets/curso/temas/t3/img17.png', alt='' style="width: 300px").m-auto
               .col-lg.fit___pasosA-left
                 h3 Evidencias clave
-                p.mb-0 Expone los datos, hallazgos y resultados que justifican la recomendación. Son evidencias con sustento.
+                p.mb-0 Expone los datos, hallazgos y resultados que justifican la recomendación. Presenta evidencias que sustentan la recomendación.
             .row.align-items-center
               .col-lg.mb-4.mb-lg-0
                 h3 Análisis de riesgos y oportunidades
@@ -387,11 +393,11 @@
         .col-xl
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
             .row(titulo="Transformación de resultados (análisis)").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 El equipo somete las fichas de caracterización al análisis final. A nivel #[b cuantitativo], revisan las métricas de carga (rendimiento) extraídas de estudios técnicos sobre servidores. Descubren que los sitios web de ferreterías que demoran más de 3 segundos en cargar pierden el 53% de las ventas móviles. A nivel #[b cualitativo], analizan la normativa de la DIAN respecto a la facturación electrónica y las políticas de retención de datos en Colombia, concluyendo que la seguridad de los datos financieros de los clientes es el riesgo reputacional más crítico del proyecto.
+              p.mb-3 El equipo somete las fichas de caracterización al análisis final. A nivel #[b cuantitativo], revisan las métricas de carga (rendimiento) extraídas de estudios técnicos sobre servidores. Descubren que los sitios web de ferreterías que presentan una disminución significativa en las conversiones móviles. A nivel #[b cualitativo], analizan la normativa de la DIAN respecto a la facturación electrónica y las políticas de retención de datos en Colombia, concluyendo que la seguridad de los datos financieros de los clientes es el riesgo reputacional más crítico del proyecto.
             .row(titulo="Gestión del conocimiento").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 Para evitar la amnesia corporativa, el equipo redacta un documento de #[b Lecciones Aprendidas] que se aloja en el repositorio institucional. La regla principal establecida dicta: "Queda estrictamente prohibido en la organización la instalación de '#[i plugins]' de WooCommerce que no hayan recibido actualizaciones de seguridad en los últimos 6 meses, independientemente de su popularidad". Esta directriz asegura que cualquier futuro desarrollador contratado mantenga la integridad del código fuente.
+              p.mb-3 Para evitar la amnesia corporativa, el equipo redacta un documento de #[b lecciones aprendidas] que se aloja en el repositorio institucional. La regla principal establecida dicta: "Queda estrictamente prohibido en la organización la instalación de '#[i plugins]' de WooCommerce que no hayan recibido actualizaciones de seguridad en los últimos 6 meses, independientemente de su popularidad". Esta directriz asegura que cualquier futuro desarrollador contratado mantenga la integridad del código fuente.
             .row(titulo="Recomendaciones y toma de decisiones").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 El rol de analista de inteligencia, redacta el #[b Informe estratégico] dirigido a la gerencia de Central Ferretera.
+              p.mb-3 El rol de analista de inteligencia, redacta el #[b informe estratégico] dirigido a la gerencia de Central Ferretera.
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           p En lugar de explicar la programación de las herramientas, emite la siguiente recomendación accionable:
@@ -405,7 +411,7 @@
               li.mb-0
                 span.fa-li
                   i.fas.fa-search
-                | La integración exclusiva de la pasarela de pagos nacional evaluada, ya que es la única que certifica la generación automática del XML para la DIAN. La ejecución de esta arquitectura incrementará el costo inicial de infraestructura en un 12 %, pero evitará sanciones fiscales y proyecta una recuperación de la inversión (ROI) durante los primeros 8 meses de operación ininterrumpida."
+                | La integración exclusiva de la pasarela de pagos nacional evaluada, ya que es la única que certifica la generación automática del XML para la DIAN. La ejecución de esta arquitectura se estima que incrementará el costo inicial de infraestructura en un 12 %, pero podría contribuir a reducir el riesgo de sanciones fiscales y se proyecta una recuperación de la inversión (ROI) durante los primeros 8 meses de operación ininterrumpida.
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/t3/img23.png', alt='' style="width: 500px").m-auto

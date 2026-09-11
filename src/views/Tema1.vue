@@ -18,14 +18,14 @@
           figure
             img(src='@/assets/curso/temas/t1/img2.svg', alt='' style="width: 85px").m-auto
         .col-xl
-          p.mb-0 El diseño de ecuaciones de búsqueda transforma las necesidades estratégicas en cadenas lógicas que indican a la base de datos qué términos recuperar, dónde localizarlos y cómo relacionarlos. El proceso parte de las palabras clave definidas previamente en la Ficha de Registro del Proyecto. Los pasos para el diseño inicial de la ecuación son:
+          p.mb-0 El diseño de ecuaciones de búsqueda transforma las necesidades estratégicas en cadenas lógicas que indican a la base de datos qué términos recuperar, dónde localizarlos y cómo relacionarlos. El proceso parte de las palabras clave definidas previamente en la Ficha de registro del proyecto. Los pasos para el diseño inicial de la ecuación son:
       .row.justify-content-center.mb-5
         .col-lg-10
           PasosA.color-acento-contenido(tipo="n")
             .row.align-items-center
               .col-lg.mb-4.mb-lg-0
                 h3 Extraer las palabras clave
-                p.mb-0 Se retoman de la Ficha de Registro del Proyecto las palabras clave relacionadas con el Factor Crítico de Vigilancia y el objetivo de búsqueda.
+                p.mb-0 Se retoman de la Ficha de registro del proyecto las palabras clave relacionadas con el factor crítico de vigilancia y el objetivo de búsqueda.
               .col-auto(data-aos="zoom-in")
                 figure
                   img(src='@/assets/curso/temas/t1/img3.png', alt='' style="width: 300px").m-auto
@@ -118,7 +118,6 @@
                     span Matriz de términos
                   .tabla-a(data-aos="zoom-in")
                     table
-                      caption Tabla que presenta un ejemplo de matriz de términos
                       thead
                         tr
                           th.ajuste-border-tabla.texto-left Concepto principal
@@ -128,20 +127,20 @@
                       tbody
                         tr.ajuste-color-tabla
                           td.ajuste-border-tabla.texto-left.text-weight-bold Comercio electrónico
-                          td.ajuste-border-tabla.texto-left Tienda virtual, venta en línea
+                          td.ajuste-border-tabla.texto-left Tienda virtual, venta en línea.
                           td.ajuste-border-tabla.texto-left -
-                          td.texto-left #[i E-commerce, online retail]
+                          td.texto-left #[i E-commerce, online retail].
                         tr
                           td.ajuste-border-tabla.texto-left.text-weight-bold Seguridad informática
-                          td.ajuste-border-tabla.texto-left Ciberseguridad, protección digital
+                          td.ajuste-border-tabla.texto-left Ciberseguridad, protección digital.
                           td.ajuste-border-tabla.texto-left -
-                          td.texto-left #[i Cybersecurity, information security]
+                          td.texto-left #[i Cybersecurity, information security].
                         tr.ajuste-color-tabla
                           td.ajuste-border-tabla.texto-left.text-weight-bold Sistema de gestión de contenidos
-                          td.ajuste-border-tabla.texto-left Gestor de contenidos
+                          td.ajuste-border-tabla.texto-left Gestor de contenidos.
                           td.ajuste-border-tabla.texto-left CMS
-                          td.texto-left #[i Content Management System]
-      p.mb-0 El diseño de ecuaciones de búsqueda comienza con las palabras clave de la Ficha de Registro del Proyecto y se fortalece mediante una matriz de términos exhaustiva, capaz de reducir sesgos y aumentar la pertinencia de los resultados.
+                          td.texto-left #[i Content Management System].
+      p.mb-0 El diseño de ecuaciones de búsqueda comienza con las palabras clave de la Ficha de registro del proyecto y se fortalece mediante una matriz de términos exhaustiva, capaz de reducir sesgos y aumentar la pertinencia de los resultados.
       Separador
       #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.2 Operadores booleanos, comandos de truncamiento y uso de comillas
@@ -157,7 +156,7 @@
             .row(titulo="Operador OR (Unión)").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Indica que al menos uno de los términos debe aparecer en el documento. Se utiliza para agrupar sinónimos y ampliar la búsqueda. Al ingresar competitividad OR productividad, el sistema recuperará documentos que contengan el primer término, el segundo, o ambos.
             .row(titulo="Operador NOT / AND NOT (Exclusión)").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 Elimina documentos que contengan un término específico. Es vital para eliminar ruido informático o polisemia. Sí se investiga la construcción de muros con adobe; pero la base de datos arroja resultados sobre el #[i software] Adobe, la ecuación debe ajustarse a adobe NOT #[i software].
+              p.mb-3 Elimina documentos que contengan un término específico. Es vital para eliminar ruido informático o polisemia. Si se investiga la construcción de muros con adobe; pero la base de datos arroja resultados sobre el #[i software] Adobe, la ecuación debe ajustarse a adobe NOT #[i software].
       p.mb-5 Para otorgar mayor flexibilidad y precisión a las ecuaciones, se emplean los siguientes comandos de sintaxis avanzada:
       .row.justify-content-center.mb-5
         .col-xl-10
@@ -165,7 +164,7 @@
             h5 Figura 1.
             span Ejemplo de búsqueda empleando operadores, uso de comillas y paréntesis
           figure(data-aos="zoom-in").mb-5
-            img(src='@/assets/curso/temas/t1/img13.png', alt='La figura representa una búsqueda especializada en un repositorio digital, mediante operadores booleanos, comillas y paréntesis. Estos elementos permiten relacionar términos, conservar frases exactas, agrupar conceptos y recuperar documentos pertinentes para procesos de vigilancia estratégica e investigación.').m-auto
+            img(src='@/assets/curso/temas/t1/img13.jpg', alt='La figura representa una búsqueda especializada en un repositorio digital, mediante operadores booleanos, comillas y paréntesis. Estos elementos permiten relacionar términos, conservar frases exactas, agrupar conceptos y recuperar documentos pertinentes para procesos de vigilancia estratégica e investigación.').m-auto
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in")
             .row(titulo="Comandos de truncamiento o comodines").ajuste-cajaAcordion.ajuste-vineta
               p Los comandos de truncamiento recuperan diferentes variaciones de una palabra. El asterisco sustituye una cadena de caracteres. A continuación, se presenta un ejemplo:
@@ -197,7 +196,6 @@
       figure(data-aos="zoom-in").mb-0
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/HVl7CPGT9Qg" title="Buscar con precisión: operadores y sintaxis para ecuaciones de búsqueda" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption.fit___figcaption-video Video. Buscar con precisión: operadores y sintaxis para ecuaciones de búsqueda
       Separador
       #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.3 Transición de búsquedas generales a búsquedas especializadas
@@ -227,11 +225,11 @@
                   li.mb-0
                     span.fa-li
                       i.fas.fa-search
-                    | Instituto de Ingenieros Eléctricos y Electrónicos #[i Xplore] (IEEE #[i Xplore]): ingeniería. 
+                    | IEEE Xplore, biblioteca digital del Instituto de Ingenieros Eléctricos y Electrónicos (IEEE).
                   li.mb-0
                     span.fa-li
                       i.fas.fa-search
-                    | #[i Scopus]: revisiones sistemáticas. 
+                    | Scopus: literatura científica y análisis de producción científica.
                   li.mb-0
                     span.fa-li
                       i.fas.fa-search
@@ -327,7 +325,7 @@
             .lista-ol--cuadro__vineta
               span 2
             | 
-            p.mb-0 #[b Construcción de la ecuación con operadores lógicos:] el aprendiz estructura la siguiente ecuación anidada para ingresarla en bases de datos de literatura técnica e ingeniería de software:
+            p.mb-0 #[b Construcción de la ecuación con operadores lógicos:] el aprendiz estructura la siguiente ecuación anidada para ingresarla en bases de datos de literatura técnica e ingeniería de #[i software]:
         h5.fit___h5_box ("WordPress" AND "WooCommerce") AND (#[i securit* OR vulnerabilit*] OR "#[i cyber attack]") AND (optimiz* OR performanc* OR cach*)
         ul.fa-ul.estilo___ul_1.mb-3
           li.mb-0
@@ -355,8 +353,8 @@
           .col-xl
             .box___style_1.color___1.fit___box_1(data-aos="fade-left")
               h5 Resultado estratégico:
-              p La ecuación matemática filtra millones de páginas web y entrega exactamente 14 artículos técnicos (papers y reportes de ciberseguridad). Entre estos hallazgos, el equipo identifica literatura verificada sobre las vulnerabilidades específicas de ciertas pasarelas de pago al integrarse con WooCommerce y los mejores protocolos de mitigación de ataques de denegación de servicio (DDoS) para WordPress.
-              p.mb-0 Esta información técnica, extraída gracias a una ecuación robusta, evita que Central Ferretera instale extensiones o plugins obsoletos, garantizando que el despliegue del proyecto tecnológico se realice bajo estándares de seguridad informática de clase mundial.
+              p La ecuación matemática filtra millones de páginas web y entrega artículos científicos y reportes de ciberseguridad. Entre estos hallazgos, el equipo identifica literatura verificada sobre las vulnerabilidades específicas de ciertas pasarelas de pago al integrarse con WooCommerce y los mejores protocolos de mitigación de ataques de denegación de servicio (DDoS) para WordPress.
+              p.mb-0 Esta información técnica, extraída gracias a una ecuación robusta, evita que Central Ferretera instale extensiones o #[i plugins] obsoletos, garantizando que el despliegue del proyecto tecnológico se realice bajo estándares de seguridad informática de clase mundial.
 
 </template>
 
